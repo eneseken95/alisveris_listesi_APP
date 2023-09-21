@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    height: 100%;
+    background-color: rgb(43, 43, 43);
+    background-repeat: no-repeat; 
+}
+h1
+{
+    font-size: 3rem;
+    font-weight: 50;
+    margin: 1rem 0 3rem;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Hind Siliguri', sans-serif;
+    margin-top: 50px;
+}
+.styling
+{
+    font-weight: 800;
+    color: orange;
+    text-shadow: 2px 2px white;
+}
+.input_div
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.input_div .input
+{
+    padding: 0.5rem 1rem;
+    height: 3.125rem;
+    width: 26.526rem;
+    outline: none;
+    border: none;
+    background-color: rgb(255,255,255);
+    font-size: 1.25rem;
+    margin: 0.25rem;
+    border-radius: 8px;
+    margin-right: 10px;
+    text-align: center;
+}
+.addButton
+{
+    height: 3.125rem;
+    width: 3.125rem;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    margin: 0.156rem;
+    cursor: pointer;
+    background-color: rgb(255, 174, 0);
+    color: rgb(255,255,255);
+}
+.addButton:hover
+{
+    opacity: 0.7;
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+}
+.item
+{
+    padding: 0.5rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 4px solid rgb(255,255,255);
+}
+.item_input
+{
+    background: none;
+    outline: none;
+    color: rgb(255,255,255);
+    border: none;
+    width: 21.875rem;
+    font-size: 1.4rem;
+    text-align: center;
+}
+.editButton
+{
+    font-size: 1.4rem;
+    margin: 0 0.25rem;
+    font-family: 'Hind Siliguri', sans-serif;
+    background: none;
+    outline: none;
+    border: none;
+    color: rgb(0, 255, 0);
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 15px;
+}
+.removeButton
+{
+    font-size: 1.4rem;
+    margin: 0 0.25rem;
+    font-family: 'Hind Siliguri', sans-serif;
+    background: none;
+    outline: none;
+    border: none;
+    color: rgb(238, 0, 0);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
